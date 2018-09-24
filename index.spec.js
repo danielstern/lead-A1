@@ -1,6 +1,5 @@
 import { Message } from './lib/Message';
 import { describe, it, fit, delay, beforeEach, afterEach } from 'highground';
-console.log(beforeEach,afterEach);
 import { time, transmit } from './utility'
 import { ControlCode } from './lib/ControlCode'
 describe("Nord AI Tests",()=>{
